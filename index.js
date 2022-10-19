@@ -2,11 +2,11 @@ const { Pool } = require("pg");
 const Cursor = require("pg-cursor");
 
 const config = {
-    user: "postgres",
-    host: "localhost",
-    password: "12345",
+    user: "-",
+    host: "-",
+    password: "-",
     database: "Banco",
-    port: "5432",
+    port: "-",
     max: 20,
     idleTimeoutMillis: 4000,
     connectionTimeoutMillis: 0
